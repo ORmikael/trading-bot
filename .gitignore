@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+trading-bot-venv/
+
+# Market data and generated datasets
+data/raw/
+data/extracted/
+data/normalized/
+data/processed/
+
+# Backtest outputs and runtime database
+data/results/
+src/data/results/
+
+# macOS metadata
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
